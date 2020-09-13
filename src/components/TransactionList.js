@@ -3,7 +3,6 @@ import { connect } from "react-redux";
 import TransactionDetail from "./TransactionDetail";
 
 const TransactionList = ({ transactions }) => {
-  console.log(transactions);
   return (
     <div className="TransactionList">
       <h3>History</h3>
